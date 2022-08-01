@@ -21,6 +21,7 @@ int mandelbrotPoint(complex z, complex c){
         z = fz(z,c);
         if (cabs(z) < 4)
             a = 255-i;
+        else break;
     }
     return(a);
 
